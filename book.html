@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DAM Books|Home Page
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="getBooks();">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">DAM Books</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mangahomepage.html" class="nav-link">DAM Manga</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="comichomepage.html" class="nav-link">DAM Comics</a>
+                    </li>
+
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-wrap js-fullheight">
+        <div class="overlay"></div>
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+                <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+                    <img src="Images/default-monochrome-white1.svg" class="img-fluid" style="margin-bottom: 30px; margin-top: 50px" />
+                    <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                    </h1>
+                    <h6>
+                        That’s the thing about books. They let you travel without moving your feet.
+                    </h6>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- END nav -->
+
+
+
+    <section class="ftco-section ftco-degree-bg">
+        <div class=" ">
+            <div class="row">
+                <div class="col-md-10 ftco-animate sidebar order-first " style="background-color: #1c1c1c !important; ">
+
+
+                    <div class="row "  style="background-color: #1c1c1c !important;">
+                        <div class="col-md-5 sidebar-box ftco-animate  "style="border-radius: 5px 0px 0px 5px;" >
+                            <div class="block-100 mb-4 d-flex ">
+                                <img src="" alt="">
+                                 <a class="blog-img mr-4 " id = "images" , style="background-image:" ></a>
+                                <div class="text ">
+                                    <!-- <h3 class="heading "><a href="# ">It's a Magical World (Calvin and Hobbes)</a></h3> -->
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 sidebar-box ftco-animate " style="border-radius: 0px 5px 5px 0px;">
+                            <h1 class="text-center " style="font-size: 100px;" id="tit">
+
+                            </h1>
+
+                            <h3 class="text-left mx-50 " id="auth">
+
+                            </h3>
+                            <h3 class="text-left " id="desc">
+
+                            </h3>
+
+                            <h3 class="text-left " id="cat">
+
+                            </h3>
+
+                            <h3 class="text-left " id="lang">
+
+                            </h3>
+                            <h3 class="text-left " id="date">
+
+                            </h3>
+
+
+                            <h3 class="text-left " id="page">
+
+                            </h3>
+
+
+
+
+                            <h3 class="text-left " id="price">
+
+                            </h3>
+
+                            <h3 class="text-left " id="sale">
+
+                            </h3>
+
+                            <h3 class="text-left " id="nameOfAuthor">
+
+                            </h3>
+
+                            <h3 class="text-left " id="birthDate">
+
+                            </h3>
+
+                            <h3 class="text-left " id="aboutTheCharacter">
+
+                            </h3>
+
+                            <h3 class="text-left " id="bestWrites">
+
+                            </h3>
+
+                            <h3 class="text-left " id="imgs">
+
+                            </h3>
+                            <button class="cybr-btn " id="buy" style="color:white  ;  margin-top: 50px; background-color: #1c1c1c; margin: 30px; " >
+
+                            </button>
+                            <button class="cybr-btn " id="prev" style="color: #1c1c1c ; margin-top: 50px; background-color: white;" >
+
+                            </button>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- .col-md-8 -->
+                <div class="col-md-2 sidebar ftco-animate order-first " style="background-color: #1c1c1c; ">
+
+
+                    <div class="sidebar-box ftco-animate ">
+                        <h3 class="text-center mx-50 ">Top 6 Authors of all time</h3>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/william.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected(0)">William Shakespeare</a></h3>
+
+                            </div>
+                        </div>
+
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/auth2.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected(1)">Agatha Christie </a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/auth3.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected(2)">Barbara Cartland</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/auth4.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected(3)">Danielle Steel</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/auth5.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected(4)">Harold Robbins </a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/auth6.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected(5)">Georges Simenon</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-box ftco-animate ">
+                        <h3 class="text-center mx-50 ">Top 6 Rated Books</h3>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/rated1.jpeg "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected('y1NVNqOB5OIC')">It's a Magical World (Calvin and Hobbes)</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/rated2.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected('rIj5x-C7D2cC')">A Storm of Swords (A Song of Ice and Fire)</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/rated3.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected('yKT9nQEACAAJ')">The Wise Man's Fear (The Kingkiller Chronicle)</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/rated4.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected('-iztDAAAQBAJ')">Harry Potter and the Deathly Hallows</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/rated5.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected('5XOL49zCAHEC')">The Lord Of The Rings  (The Return of the King)</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex ">
+                            <a class="blog-img mr-4 " style="background-image: url(images/rated6.jpeg); "></a>
+                            <div class="text ">
+                                <h3 class="heading "><a href="# "onclick="bookselected('dTUAAQAAQBAJ')">Words of Radiance (The Stormlight Archive)</a></h3>
+                                <div class="meta ">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- .section -->
+
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section " style="background-color: #0e0e0e; ">
+        <div class="container " id="Contact ">
+            <div class="row mb-5 ">
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">DAM Books</h2>
+                        <p>Your all Online Books with us</p>
+                    </div>
+                </div>
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ml-5 ">
+                        <h2 class="ftco-heading-2 ">Quick Links</h2>
+                        <ul class="list-unstyled ">
+                             <li><a href="homepage.html" class="py-2 d-block ">Home</a></li>
+                            <li><a href="about.html" class="py-2 d-block ">About us</a></li>
+                            <li><a href="mangahomepage.html" class="py-2 d-block ">DAM Manga</a></li>
+                            <li><a href="comichomepage.html" class="py-2 d-block ">DAM Comics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">Contact Information</h2>
+                        <ul class="list-unstyled ">
+                            <li>
+
+
+                            </li>
+                            <li>
+                                <a href="# " class="py-2 d-block ">bussklzor@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="# " class="py-2 d-block ">gr8sklzor@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
+                            <li class="ftco-animate "><a href=" "><span class="icon-linkedin-square "></span></a></li>
+                            <li class="ftco-animate "><a href="https://www.facebook.com/Sklzor/ "><span class="icon-facebook "></span></a></li>
+                            <li class="ftco-animate "><a href="https://www.instagram.com/andreww12x/ "><span class="icon-instagram "></span></a></li>
+                            <li class="ftco-animate "><a href="https://wa.me/+201275612590 "><span class="icon-whatsapp "></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 text-center ">
+                    <p>
+
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved | DAM Books<i aria-hidden="true "></i>
+                        <a href=" " target="_blank "></a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- loader -->
+
+
+
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery-migrate-3.0.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.easing.1.3.js "></script>
+    <script src="js/jquery.waypoints.min.js "></script>
+    <script src="js/jquery.stellar.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.magnific-popup.min.js "></script>
+    <script src="js/aos.js "></script>
+    <script src="js/jquery.animateNumber.min.js "></script>
+    <script src="js/bootstrap-datepicker.js "></script>
+    <script src="js/jquery-migrate-3.0.1.min.js "></script>
+    <script src="js/jquery-migrate-3.0.1.min.js "></script>
+    <script src="js/particles.min.js "></script>
+    <script src="js/particle.js "></script>
+    <script src="js/vparticles.js "></script>
+    <script src="js/scrollax.min.js "></script>
+    <script src="js/validator.min.js "></script>
+    <script src="js/csi.min.js "></script>
+    <script src="js/popper.js "></script>
+    <script src="js/carsoul.js "></script>
+    <script src="js/main.js "></script>
+    <script src="js/jquery-modal-video.min.js "></script>
+    <script src="js/app.js "></script>
+    <script src="js/jquery.filterizr.min.js "></script>
+    <script src="js/script.js "></script>
+    <script src="js/popper.js "></script>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js " integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin=" anonymous "></script>
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.js "></script>
+    <script src="js/searchengine1.js "></script>
+    <script src="js/and.js"></script>
+
+    <script type="text/javascript">
+
+document.getElementById("buy").style.visibility = "hidden";
+document.getElementById("prev").style.visibility = "hidden";
+
+let bestAuthors={
+0:{
+"name":"William Shakespear",
+"birthDate":"26 April 1564 – 23 April 1616",
+"aboutTheCharacter":"William Shakespeare, Shakespeare also spelled Shakspere, byname Bard of Avon or Swan of Avon, (baptized April 26, 1564, Stratford-upon-Avon, Warwickshire, England—died April 23, 1616, Stratford-upon-Avon), English poet, dramatist, and actor often called the English national poet and considered by many to be the greatest dramatist of all time.Shakespeare occupies a position unique in world literature. Other poets, such as Homer and Dante, and novelists, such as Leo Tolstoy and Charles Dickens, have transcended national barriers, but no writer’s living reputation can compare to that of Shakespeare, whose plays, written in the late 16th and early 17th centuries for a small repertory theatre, are now performed and read more often and in more countries than ever before. The prophecy of his great contemporary, the poet and dramatist Ben Jonson, that Shakespeare “was not of an age, but for all time,” has been fulfilled. It may be audacious even to attempt a definition of his greatness, but it is not so difficult to describe the gifts that enabled him to create imaginative visions of pathos and mirth that, whether read or witnessed in the theatre, fill the mind and linger there. He is a writer of great intellectual rapidity, perceptiveness, and poetic power. Other writers have had these qualities, but with Shakespeare the keenness of mind was applied not to abstruse or remote subjects but to human beings and their complete range of emotions and conflicts. Other writers have applied their keenness of mind in this way, but Shakespeare is astonishingly clever with words and images, so that his mental energy, when applied to intelligible human situations, finds full and memorable expression, convincing and imaginatively stimulating. As if this were not enough, the art form into which his creative energies went was not remote and bookish but involved the vivid stage impersonation of human , commanding sympathy and inviting vicarious participation. Shakespeare’s merits can survive translation into other languages and into cultures remote from that of Elizabethan England.",
+"bestWrites":"The Merchant of Venice. The Merchant of Venice tells the intriguing tale of Bassanio, a lonely Venetian desperate to court the beautiful Portia. <br> A Midsummer Night's Dream. <br> Twelfth Night. <br> Romeo and Juliet. ... ,,, Macbeth.",
+"imgs":"https://pyxis.nymag.com/v1/imgs/6f0/e74/ac334906cfcb65bc9cc6c4930f5cf05caa.rvertical.w570.jpg"
+
+
+
+},
+1:{
+    "name":"Agatha Christie",
+"birthDate":"(1890–1976)",
+"aboutTheCharacter":"Best-selling author Agatha Christie published her first novel, The Mysterious Affair at Styles, in 1920, and went on to become one of the most famous writers in history, with mysteries like Murder at the Vicarage, Partners in Crime and Sad Cypress. She sold billions of copies of her work and was also a noted playwright and romance author. Christie was born Agatha Mary Clarissa Miller on September 15, 1890, in Torquay, Devon, in the southwest part of England. The youngest of three siblings, she was educated at home by her mother, who encouraged her daughter to write. As a child, Christie enjoyed fantasy play and creating characters, and, when she was 16, she moved to Paris for a time to study vocals and piano. In 1914, she wed Colonel Archibald Christie, a Royal Flying Corps pilot, and took up nursing during World War I. She published her first book, The Mysterious Affair at Styles, in 1920; the story focused on the murder of a rich heiress and introduced readers to one of Christie's most famous characters—Belgian detective Hercule Poirot. ",
+"bestWrites":"Murder on the Orient Express (1934) <br> The ABC Murders (1935) <br> And Then There Were None (1939) <br> Five Little Pigs (1943) <br> Crooked House (1949) <br> A Murder is Announced (1950) <br> Endless Night (1967)",
+"imgs":"https://i.guim.co.uk/img/media/61ecf64d154d2b4a7e9a8ebf516c53e8ad6377cd/0_300_1661_996/master/1661.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=6b48948a2e943a0fb38b60300489e93d"
+
+
+},
+2:{
+
+    "name":"Barbara Cartland",
+"birthDate":"9 July 1901 – 21 May 2000",
+"aboutTheCharacter":"Dame Barbara Cartland was one of the most successful and well-known of all British romance novelists and was undoubtedly the most prolific, writing 723 books in her long lifetime of which 675 are romantic novels and include 160 brand new titles that are currently being published as the Barbara Cartland Pink Collection. She wrote across a wide variety of genres, but is of course most closely associated with romance, and with her stories of chaste heroines, dashing heroes and everyone finally living happily ever after. Barbara was a colourful character in many senses of the word and was as well known for her controversial and witty interviews and absorbingly exciting life story as she was for her bright pink clothes and extravagant appearance. To read Barbara Cartland’s life story is to be impressed that someone could fit so much into only one life. As well as writing a staggering number of books, she was also involved with great advances in many diverse fields from aviation to alternative medicine and helped many groups who she perceived as being unfairly treated, from midwives in poor working conditions to Romany gypsy children who wanted to be allowed to attend school.She was fascinatingly contradictory in her interviews and novels, Barbara often extolled the virtues of traditional relationships between men and women and falling in love, but hers is the story of a driven, independent-minded woman who was unafraid to turn her hand to anything which interested her and right wrongs Barbara Cartland is synonymous with traditional romantic fiction, but her life story is perhaps just as engrossing as her fiction",
+"bestWrites":" Sweet Enchantress <br> The Blue Eyed Witch <br> Pure and Untouched <br> The Mysterious Maid-Servant <br> A Virgin Bride",
+"imgs":"https://851780.smushcdn.com/1830236/wp-content/uploads/2018/01/bio-40-70.jpg?lossy=1&strip=1&webp=1"
+
+},
+3:{
+
+    "name":"Danielle Steel",
+"birthDate":"born August 14, 1947",
+"aboutTheCharacter":"Danielle Steel published her first novel, Going Home, in 1973. By the end of the decade she found an audience receptive to her brand of romance and drama, with titles like The Promise, Kaleidoscope, Heartbeat and Sisters going on to become best sellers. Steel has also penned a poetry book, several children's series and song lyrics for an album.Danielle Fernandes Dominique Schuelein-Steel was born on August 14, 1947, New York City. She was the only child of John Schulein-Steel, scion of the German Löwenbräu beer family, and Norma da Câmara Stone dos Reis, daughter of a Portuguese diplomat, who divorced when Danielle was eight years old.Splitting her time between France and New York, Steel was exposed to the dramas of high society at an early age, but otherwise weathered a largely lonely childhood. She threw herself into her books and developed a love for fashion, determining she would pursue that path for a career. After graduating from New York’s Lycáe Français academy at age 15, Steel attended the Parsons School of Design and NYU. However, she endured a series of health scares, including a tumor that required an ovary to be removed, and dropped out of college before graduating.",
+"bestWrites":" Echoes <br> The Kiss <br> Toxic Bachelors <br> The House <br> Dating Game ",
+"imgs":"https://www.biography.com/.image/t_share/MTU4MjE0NDUxNzAxNDkxMTA2/_danielle-steel-poses-for-a-portrait-in-1994-in-los-angeles-california-photo-by-harry-langdon_getty-images-square.jpg"
+
+},
+4:{
+    "name":"Harold Robbins",
+"birthDate":"May 21, 1916 – October 14, 1997",
+"aboutTheCharacter":"Harold Robbins, original name Harold Francis Rubin, (born May 21, 1916, New York City, New York, U.S.—died October 14, 1997, Palm Springs, California), American author credited with popularizing a prurient style of mass-market fiction that traded on the public appetite for tales of profligate Hollywood stars and glamorous criminals. Robbins was known to have fabricated numerous episodes that were repeated by journalists and others who documented his storied existence, paying little attention to consistency or plausibility. The particulars of his life were not untangled until a decade after his death. The childhood he invented for himself was particularly colourful: he claimed to have been raised in a Catholic orphanage and then adopted by a poor Jewish family. He also maintained that he had earned extra money as a child prostitute. In fact, the orphanage where he claimed to have been abandoned never existed. Robbins was actually raised in Brooklyn with three half-siblings by his Jewish birth father, who was a pharmacist, and his stepmother; his birth mother had died shortly after he was born. The family moved to Manhattan following the onset of the Great Depression. Though Robbins claimed that he had dropped out of high school and joined the navy, he actually graduated in 1934 and supported himself with various jobs in the food service industry. A report that he had made millions on crop futures and lost them betting on the sugar market during this period is also likely apocryphal. About 1940 he began working as a clerk for Universal Pictures in New York, and two years later he became budget director. Robbins wrote his first novel, Never Love a Stranger (1948; film 1958), while working for the studio. The book chronicles a young New York boy’s life of crime and dissolution. It was among several other works (by different authors) containing scenes of sex and violence that became the subject of an obscenity trial in Philadelphia the next year. The books were ultimately ruled not obscene.",
+"bestWrites":"The Stallion <br> SIN CITY <br> HEAT OF PASSION <br> NEVER ENOUGH <br> Raiders ",
+"imgs":"https://pbs.twimg.com/profile_images/471744128858849280/szsONSCz.jpeg"
+
+
+},
+5:{
+    "name":"Georges Simenon",
+"birthDate":"13 February 1903 – 4 September 1989",
+"aboutTheCharacter":"Georges Simenon, in full Georges-Joseph-Christian Simenon, (born Feb. 13, 1903, Liège, Belg.—died Sept. 4, 1989, Lausanne, Switz.), Belgian-French novelist whose prolific output surpassed that of any of his contemporaries and who was perhaps the most widely published author of the 20th century.Simenon began working on a local newspaper at age 16, and at 19 he went to Paris determined to be a successful writer. Typing some 80 pages each day, he wrote, between 1923 and 1933, more than 200 books of pulp fiction under 16 different pseudonyms, the sales of which soon made him a millionaire. The first novel to appear under his own name was Pietr-le-Letton (1929; The Strange Case of Peter the Lett), in which he introduced the imperturbable, pipe-smoking Parisian police inspector Jules Maigret to fiction. Simenon went on to write 83 more detective novels featuring Inspector Maigret, as well as 136 psychological novels. His total literary output consisted of about 425 books that were translated into some 50 languages and sold more than 600 million copies worldwide. Many of his works were the basis of feature films or made-for-television movies. In addition to novels, he wrote three autobiographical works—Pedigrée (1948), Quand j’étais vieux (1970; When I Was Old), and Mémoires intimes (1981; Intimate Memoirs), the last after the suicide of his only daughter—and a critically well-received trilogy of novellas about Africa, selections of which were published in English as African Trio (1979).Despite these other works, Simenon remains inextricably linked with Inspector Maigret, who is one of the best-known characters in detective fiction. Unlike those fictional detectives who rely on their immense deductive powers or on police procedure, Maigret solves murders using mainly his psychological intuition and a patiently sought, compassionate understanding of the perpetrator’s motives and emotional composition. Simenon’s central theme is the essential humanity of even the isolated, abnormal individual and the sorrow at the root of the human condition. Employing a style of rigorous simplicity, he evokes a prevailing atmosphere of neurotic tensions with sharp economy.",
+"bestWrites":"(Maigret on Holiday) – 1947 <br> (Maigret Goes to School) – 1953 <br> (The Patience of Maigret) – 1965 <br> (Maigret in Montmartre) – 1951 <br> (Maigret Hesitates) – 1968 ",
+"imgs":"https://i.guim.co.uk/img/media/6cecd16af926a19cb2acfe06389b32faf220eb64/112_1811_7094_4258/master/7094.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=3ed625aa7bb94635be0945841ea14c5c"
+
+
+}
+}
+
+
+
+        $(document).ready(function(){
+
+            var id = window.location.href.split("?id=")[1]
+
+axios.get('https://www.googleapis.com/books/v1/volumes/' + id).then((response) => {
+    console.log(response);
+    document.getElementById("buy").style.visibility = "visible";
+    document.getElementById("prev").style.visibility = "visible";
+
+
+
+    var tit = document.getElementById("tit");
+tit.innerHTML = "" + response.data.volumeInfo.title;
+
+
+var auth = document.getElementById("auth");
+ auth.innerHTML = "Author: " + response.data.volumeInfo.authors;
+
+
+ var images = document.getElementById("images");
+ images.innerHTML = "<img src = " + response.data.volumeInfo.imageLinks.thumbnail + "/>"
+
+ var category = document.getElementById("cat");
+ category.innerHTML = "Categories: " + response.data.volumeInfo.categories;
+
+ var language = document.getElementById("lang");
+ language.innerHTML = "Language: " + response.data.volumeInfo.language +"</p><br>";
+
+ var datee = document.getElementById("date");
+ datee.innerHTML = "Published Date: " + response.data.volumeInfo.publishedDate;
+
+
+
+
+ var page = document.getElementById("page");
+ page.innerHTML = "Page Count: " + response.data.volumeInfo.pageCount ;
+
+
+
+ var price = document.getElementById("price");
+ if (response.data.saleInfo.listPrice){
+ price.innerHTML = "Price: " + response.data.saleInfo.listPrice.amount + response.data.saleInfo.listPrice.currencyCode ;
+ }
+ if(response.data.accessInfo.viewability = 'SAMPLE' ){
+    buy.innerHTML = " " + "<a style='color:white;' href='bookkk.html?isbn=" + response.data.volumeInfo.industryIdentifiers[0].identifier + "'  target='_blank'> Read Now </a>";
+
+ }
+ var preview = document.getElementById("prev");
+ preview.innerHTML =  " " + "<a style='color:#1c1c1c;' href='" + response.data.volumeInfo.previewLink + "'  target='_blank'> Buy now </a>";
+
+
+
+
+
+
+//    var html = " <img src= '" + response.data.volumeInfo.imageLinks.thumbnail + "' /><br> "
+//     "<p> "+ "Title: " +response.data.volumeInfo.title +"</p><br>" +
+//     "<h4> " + "Author: " + response.data.volumeInfo.authors + " <h4> <br>"+
+//     "<p> " + "Categories: " + response.data.volumeInfo.categories +"</p><br>"+
+//     "<p> "+ "Language: " + response.data.volumeInfo.language +"</p><br>" +
+//     "<p> "+ "Published Date: " + response.data.volumeInfo.publishedDate +"</p><br>" +
+//     "<p> "+ "Preview Link: " + response.data.volumeInfo.previewLink +"</p><br>" +
+//     "<p> "+ "Page Count: " + response.data.volumeInfo.pageCount +"</p><br>" +
+//     "<p> "+ "Sale Info: " + response.data.saleInfo.buyLink +"</p><br>"+
+//     "<p> " + response.data.saleInfo.listPrice.amount + response.data.saleInfo.listPrice.currencyCode +"</p>" +
+//     "<p> " + response.data.saleInfo.saleability +"</p>" +
+//     "<p> " + response.data.items[0].volumeInfo.authors[0] +"</p>"
+//    ;
+    // $("#books-details").html(html);
+    })
+        })
+
+        console.log(bestAuthors)
+
+var id = window.location.href.split("?id=")[1]
+console.log(id)
+
+var nameOfAuthor = document.getElementById("nameOfAuthor");
+nameOfAuthor.innerHTML="Name: " + bestAuthors[id].name ;
+
+var birthDate = document.getElementById("birthDate");
+birthDate.innerHTML="Birth Date: " + bestAuthors[id].birthDate ;
+
+var aboutcharacter = document.getElementById("aboutTheCharacter");
+aboutcharacter.innerHTML="Biography: " + bestAuthors[id].aboutTheCharacter ;
+
+var bestwrites = document.getElementById("bestWrites");
+bestwrites.innerHTML= " Best Writes: " + bestAuthors[id].bestWrites ;
+
+var pic = document.getElementById("imgs");
+ images.innerHTML = "<img width='500px' src = " + bestAuthors[id].imgs +" /> "
+
+    </script>
+
+</body>
+
+</html>
